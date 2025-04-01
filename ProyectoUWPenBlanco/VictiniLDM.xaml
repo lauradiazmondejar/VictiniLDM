@@ -527,17 +527,19 @@ KeyTime="00:00:00">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="brazo_mano_derecha" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="46.909"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="80.707"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="46.909"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="brazo_mano_derecha" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="-4.386"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-15.79"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-4.386"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.7000000" Value="-6.054"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="brazo_mano_derecha" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="16.45"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="23.718"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="16.45"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.7000000" Value="17.081"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="brazo_mano_izquierda" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>

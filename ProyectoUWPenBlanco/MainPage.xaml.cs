@@ -31,11 +31,13 @@ namespace ProyectoUWPenBlanco
         private void cambiarVida(object sender, RangeBaseValueChangedEventArgs e)
         {
             //Obtener valor actual del slider y poner ese valor en la propiedad Vida del Control de Usuario
+            ucVictini.Vida = e.NewValue;
         }
 
         private void cambiarEnergía(object sender, RangeBaseValueChangedEventArgs e)
         {
             //Obtener valor actual del slider y poner ese valor en la propiedad Energía del Control de Usuario
+            ucVictini.Energia = e.NewValue;
         }
 
         private void EjecutarAtaqueFuerte(object sender, RoutedEventArgs e)

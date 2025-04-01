@@ -360,13 +360,16 @@ namespace App2
             sb.Begin();
         }
 
-        public double MyVida
+        public double Vida
         {
             get => this.pbHealth.Value;
             set => this.pbHealth.Value = value;
         }
-        public double Vida { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public double Energia { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public double Energia
+        {
+            get => this.pbEnergy.Value;
+            set => this.pbEnergy.Value = value;
+        }
         public string Nombre { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Categoría { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Tipo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
