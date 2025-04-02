@@ -141,6 +141,7 @@
     <Content Include="AssetsVictiniLDM\escudo.png" />
     <Content Include="AssetsVictiniLDM\espiral.png" />
     <Content Include="AssetsVictiniLDM\explosion_1.mp3" />
+    <Content Include="AssetsVictiniLDM\fire-whoosh.mp3" />
     <Content Include="AssetsVictiniLDM\fireworks.mp3" />
     <Content Include="AssetsVictiniLDM\fondo.png" />
     <Content Include="AssetsVictiniLDM\fuego-Photoroom.png" />

@@ -291,6 +291,7 @@ namespace App2
         {
             var sb = (Storyboard)this.Resources["escudo"];
             sb.Begin();
+            IniciarRetrasoSonido("fire-whoosh.mp3", TimeSpan.FromSeconds(0));
             var delayTimer = new DispatcherTimer();
             delayTimer.Interval = TimeSpan.FromSeconds(3);
             delayTimer.Tick += (s, e) =>
