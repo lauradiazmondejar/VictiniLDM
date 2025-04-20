@@ -40,7 +40,7 @@ namespace App2
             this.IsTabStop = true;
             this.KeyDown += ControlTeclas;
 
-            IniciarRetrasoSonido("pokemon-opening.mp3", TimeSpan.FromSeconds(0));
+            
                 
             
         }
@@ -127,7 +127,6 @@ namespace App2
             if (sbMoverAlas != null && !esDerrotado)
             {
                 sbMoverAlas.Begin();
-                IniciarRetrasoSonido("pokemon-opening.mp3", TimeSpan.FromSeconds(0));
             }
 
             // Resetear la bandera de "derrotado"
@@ -263,7 +262,6 @@ namespace App2
             {
                 var sb2 = (Storyboard)this.Resources["estado_inicial"];
                 sb2.Begin();
-                IniciarRetrasoSonido("pokemon-opening.mp3", TimeSpan.FromSeconds(0));
                 delayTimer.Stop(); // Detener el timer después de ejecutar la animación
             };
             delayTimer.Start();
@@ -281,7 +279,6 @@ namespace App2
             {
                 var sb2 = (Storyboard)this.Resources["estado_inicial"];
                 sb2.Begin();
-                IniciarRetrasoSonido("pokemon-opening.mp3", TimeSpan.FromSeconds(0));
                 delayTimer.Stop(); // Detener el timer después de ejecutar la animación
             };
             delayTimer.Start();
@@ -298,7 +295,6 @@ namespace App2
             {
                 var sb2 = (Storyboard)this.Resources["estado_inicial"];
                 sb2.Begin();
-                IniciarRetrasoSonido("pokemon-opening.mp3", TimeSpan.FromSeconds(0));
                 delayTimer.Stop(); // Detener el timer después de ejecutar la animación
             };
             delayTimer.Start();
@@ -315,7 +311,6 @@ namespace App2
             {
                 var sb2 = (Storyboard)this.Resources["estado_inicial"];
                 sb2.Begin();
-                IniciarRetrasoSonido("pokemon-opening.mp3", TimeSpan.FromSeconds(0));
                 delayTimer.Stop(); // Detener el timer después de ejecutar la animación
             };
             delayTimer.Start();
